@@ -16,5 +16,6 @@ I work as a lead engineer in a bank
 * HTML
 * CSS
 * PL/SQL
+* Sql
 * JavaScript (Basic)
 
