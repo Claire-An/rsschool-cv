@@ -18,4 +18,3 @@ I work as a lead engineer in a bank
 * PL/SQL
 * Sql
 * JavaScript (Basic)
-
