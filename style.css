@@ -5,6 +5,7 @@
 
 main, footer, header {
     margin: 0 auto;
+    max-width: 1280px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: Arial, serif;
@@ -25,7 +26,7 @@ header, footer {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav__item a,
@@ -45,7 +46,7 @@ footer a:hover {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .title {
@@ -57,3 +58,17 @@ footer {
     height: 100px;
 }
 
+h2 { 
+    padding-top: 20px;
+}
+
+.skills__list,
+.Contact__list,
+.Education__list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.About_me__text {
+    padding-left: 20px;
+}
