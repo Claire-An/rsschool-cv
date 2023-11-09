@@ -45,6 +45,7 @@
             <ul class="Contact__list">
                 <li>E-mail: claire-an@mail.ru</li>
                 <li>Discord: Svetlana#2578</li>
+                <li>Telegram: @SvetlanaVAntonova</li>
             </ul>
         </section>
         <section class="Education" id="Education">
@@ -57,13 +58,8 @@
         <section class="Example" id="Example">
             <h2>Example</h2>
             <pre>
-                function calculate() {
-                    let sum = 0;
-                    for (let arg of arguments) sum += arg;
-                    return function (){
-                        for(let args of arguments) sum += args;
-                        return sum;};
-                
+                function getFalsyValuesCount(arr) {
+                    return arr.filter((item) => !item).length;
                 }
             </pre>
         </section>
